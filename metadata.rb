@@ -477,6 +477,22 @@ attribute "hops/hopsutil_version",
           :description => "Version of the hops-util jar file.",
           :type => "string"
 
+attribute "hops/hopsutil/url",
+          :description => "Downlaod url for hopsutil jar file.",
+          :type => "string"
+
+attribute "hops/hopsexamples_spark/url",
+          :description => "Download url for hops-examples-spark jar file.",
+          :type => "string"
+
+attribute "hops/hopsexamples_hive/url",
+          :description => "Downlaod url for hops-examples-hive jar file.",
+          :type => "string"
+
+attribute "hops/hopsexamples_flink/url",
+          :description => "Downlaod url for hops-examples-flink jar file.",
+          :type => "string"
+
 attribute "hops/hopsexamples_version",
           :description => "Version of the hops-spark jar file.",
           :type => "string"
